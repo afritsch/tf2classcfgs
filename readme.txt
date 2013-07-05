@@ -35,8 +35,8 @@ Features:
 
 Files:
 - clear.cfg: clears bindings to defaults
+- autoexec.cfg: does only clear bindings atm
 - class cfgs
-- autoexec.cfg: 
 
 
 Sources used:
