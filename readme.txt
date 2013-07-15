@@ -18,7 +18,7 @@ Disclaimer: USE ON YOUR OWN RISK.
 
 Features:
 - All classes (except specifically changed): panicmelee on mouse3 hold, then
-  back to last weapon
+  back to last weapon, sensitivity increase on holding alt
 - Spy: autosap when holding mouse5, when releasing back to last weapon
 - Heavy: toggle machinemode (duck+attack) with mouse5, useful for MvM and
   besides dispensers, toogle autospin on mouse2
@@ -28,11 +28,11 @@ Features:
   jarate on mouse5
 - Soldier: Announce enemy medic kill on mouse5, easy rocketjump on mouse2
   (deactivated)
-- Pyro: machinemode on mouse5, without crouching
+- Pyro: toggle machinemode on mouse5, without crouching
 - Scout: mouse1-3 direct switch+attack for all three weapons
 - Medic: mouse3 fake ubercharge, mouse5 team announce ubercharge is ready,
   backspace suicide, mouse2 announce popped ubercharge
-- Demoman: nothing atm, except panicmelee
+- Demoman: toggle autoshoot on mouse5
 
 
 Files:
@@ -58,3 +58,7 @@ FAQ:
 
 Q:Why don't you bind mouse4?
 A: I use "bind mouse4 voicemenu 0 1" for saying thanks
+
+
+TODO:
+- Crtl-key unused. Any ideas?
