@@ -28,7 +28,7 @@ Features:
   jarate on mouse5
 - Soldier: Announce enemy medic kill on mouse5, easy rocketjump on mouse2
   (deactivated)
-- Pyro: toggle machinemode on mouse5, without crouching
+- Pyro: toggle autofire on mouse5, without crouching
 - Scout: mouse1-3 direct switch+attack for all three weapons
 - Medic: mouse3 fake ubercharge, mouse5 team announce ubercharge is ready,
   backspace suicide, mouse2 announce popped ubercharge
