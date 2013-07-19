@@ -6,7 +6,7 @@ additional functionality. I avoid the wait command, so those configs should
 work on competitive servers, too.
 
 There is are some unused snippets in the configs, I did not test those where
-commented, I just wanted to have them for reference/future usage.
+commented, I just wanted to have them for reference or future usage.
 
 If you have any suggetions, improvements, bugs or questions, add me on Steam:
 http://steamcommunity.com/id/sonomabob
@@ -17,22 +17,30 @@ Disclaimer: USE ON YOUR OWN RISK.
 
 
 Features:
-- All classes (except specifically changed): panicmelee on mouse3 hold, then
-  back to last weapon, sensitivity increase on holding alt
-- Spy: autosap when holding mouse5, when releasing back to last weapon
+- All classes (except specifically changed): panicmelee on holding mouse3, then
+  switch back to last weapon
+- Spy: autosap when holding mouse5, when releasing switch back to last weapon
 - Heavy: toggle machinemode (duck+attack) with mouse5, useful for MvM and
-  besides dispensers, toogle autospin on mouse2
-- Engineer: quick build+destroy on keys 1-4 when holding alt, autorepair on
-  mouse5
+  close to dispensers, toogle autospin on mouse2
+- Engineer: quick build+destroy on keys 1-4 when holding alt, toggle autorepair
+  on mouse5, then switch back to last weapon
 - Sniper: sensitivity change when holding alt (increase for my case), quick
-  jarate on mouse5
+  jarate/SMG on mouse5, then switch back to last weapon
 - Soldier: Announce enemy medic kill on mouse5, easy rocketjump on mouse2
   (deactivated)
-- Pyro: toggle autofire on mouse5, without crouching
-- Scout: mouse1-3 direct switch+attack for all three weapons
-- Medic: mouse3 fake ubercharge, mouse5 team announce ubercharge is ready,
-  backspace suicide, mouse2 announce popped ubercharge
-- Demoman: toggle autoshoot on mouse5
+- Pyro: toggle autofire on mouse5, works when switching weapons
+- Scout: mouse1-3 direct switch+attack for all three weapons (note: sandman
+  doesn't work)
+- Medic: alt fake ubercharge, mouse5 team announce ubercharge is ready,
+  backspace suicide, mouse2 use and announce used ubercharge
+- Demoman: toggle autoshoot on mouse5, works with switching weapons
+
+
+Notes:
+- engineer quick build is problematic with the second sentry in MvM, use normal
+  build menu for it
+- sandman doesn't work for the scout bindings, either involve a "exec clear"
+  on console or deactivate the binding for mouse2
 
 
 Files:
@@ -50,8 +58,18 @@ Sources used:
 
 
 How to use:
-Put all configs into "<steamfolder>\steamapps\common\Team Fortress 2\tf\cfg\".
+Copy all configs into "<steamfolder>\steamapps\common\Team Fortress 2\tf\cfg\".
 Steamfolder is usually "c:\Program Files (x86)\Steam".
+
+
+Additional infos:
+- Some of my other settings:
+  tf_dingaling_pitchmindmg "80"
+  tf_dingaling_pitchmaxdmg "120"
+  viewmodel_fov "90"
+- My hitsound is a custom one
+- I use chris' settings for bad connections (it's still better than defaults)
+- My HUD is the eve hud: http://code.google.com/p/eve-tf2hud/
 
 
 FAQ:
