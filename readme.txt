@@ -21,14 +21,14 @@ Features:
   switch back to last weapon
 - Spy: autosap when holding mouse5, when releasing switch back to last weapon
 - Heavy: toggle machinemode (duck+attack) with mouse5, useful for MvM and
-  close to dispensers, toogle autospin on mouse2
+  close to dispensers, toogle autospin on mouse2 (deactivated)
 - Engineer: quick build+destroy on keys 1-4 when holding alt, toggle autorepair
   on mouse5, then switch back to last weapon
 - Sniper: sensitivity change when holding alt (increase for my case), quick
   jarate/SMG on mouse5, then switch back to last weapon
 - Soldier: Announce enemy medic kill on mouse5, easy rocketjump on mouse2
   (deactivated)
-- Pyro: toggle autofire on mouse5, works when switching weapons
+- Pyro: toggle autofire on mouse5, works with switching weapons
 - Scout: mouse1-3 direct switch+attack for all three weapons (note: sandman
   doesn't work)
 - Medic: alt fake ubercharge, mouse5 team announce ubercharge is ready,
