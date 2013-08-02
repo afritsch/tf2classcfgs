@@ -17,6 +17,8 @@ Disclaimer: USE ON YOUR OWN RISK.
 
 
 Features:
+- Toggle hud minmode on semicolon/ö
+- Shows additionally to scores netgraph when holding tab
 - All classes (except specifically changed): panicmelee on holding mouse3, then
   switch back to last weapon
 - Spy: autosap when holding mouse5, when releasing switch back to last weapon
@@ -55,6 +57,7 @@ Sources used:
 - tcm_byte's config for medic: http://en.twitch.tv/tcm_byte (scroll down for the
   download-link)
 - Chris' config: http://chrisdown.name/tf2/
+- TF2mate: http://clugu.com/tf2mate/
 
 
 How to use:
