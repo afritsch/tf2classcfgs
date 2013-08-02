@@ -19,6 +19,7 @@ Disclaimer: USE ON YOUR OWN RISK.
 Features:
 - Toggle hud minmode on semicolon/ö
 - Shows additionally to scores netgraph when holding tab
+- Network settings can be changed on console with commands netgood, netbad
 - All classes (except specifically changed): panicmelee on holding mouse3, then
   switch back to last weapon
 - Spy: autosap when holding mouse5, when releasing switch back to last weapon
