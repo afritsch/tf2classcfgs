@@ -35,7 +35,8 @@ Features:
 - Scout: mouse1-3 direct switch+attack for all three weapons (note: sandman
   doesn't work)
 - Medic: alt fake ubercharge, mouse5 team announce ubercharge is ready,
-  backspace suicide, mouse2 use and announce used ubercharge
+  backspace suicide, mouse2 use and announce used ubercharge, tapping crtl
+  shows teammate locations
 - Demoman: toggle autoshoot on mouse5, works with switching weapons
 
 
