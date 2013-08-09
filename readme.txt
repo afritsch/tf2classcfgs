@@ -17,9 +17,10 @@ Disclaimer: USE ON YOUR OWN RISK.
 
 
 Features:
-- Toggle hud minmode on semicolon/ö
+- Toggle hud minmode on ö (semicolon on US-keyboard)
 - Shows additionally to scores netgraph when holding tab
-- Network settings can be changed on console with commands netgood, netbad
+- Network settings can be changed on console with commands netgood/netbad,
+  netbad is standard
 - All classes (except specifically changed): panicmelee on holding mouse3, then
   switch back to last weapon
 - Spy: autosap when holding mouse5, when releasing switch back to last weapon
@@ -32,18 +33,17 @@ Features:
 - Soldier: Announce enemy medic kill on mouse5, easy rocketjump on mouse2
   (deactivated)
 - Pyro: toggle autofire on mouse5, works with switching weapons
-- Scout: mouse1-3 direct switch+attack for all three weapons (note: sandman
-  doesn't work)
+- Scout: mouse1-3 direct switch+attack for all three weapons
 - Medic: alt fake ubercharge, mouse5 team announce ubercharge is ready,
   backspace suicide, mouse2 use and announce used ubercharge, tapping crtl
-  shows teammate locations
+  shows nearby teammate locations
 - Demoman: toggle autoshoot on mouse5, works with switching weapons
 
 
 Notes:
-- engineer quick build is problematic with the second sentry in MvM, use normal
+- Engineer quick build is problematic with the second sentry in MvM, use normal
   build menu for it
-- sandman doesn't work for the scout bindings, either involve a "exec clear"
+- The Sandman doesn't work for the scout bindings, either involve a "exec clear"
   on console or deactivate the binding for mouse2
 
 
@@ -73,15 +73,15 @@ Additional infos:
   tf_dingaling_pitchmaxdmg "120"
   viewmodel_fov "90"
 - My hitsound is a custom one
-- I use chris' settings for bad connections (it's still better than defaults)
+- I use chris' settings for bad connections (included in autoexec.cfg)
 - My HUD is the eve hud: http://code.google.com/p/eve-tf2hud/
 
 
 FAQ:
 
-Q:Why don't you bind mouse4?
+Q: Why don't you bind mouse4?
 A: I use "bind mouse4 voicemenu 0 1" for saying thanks
 
 
 TODO:
-- Crtl-key unused. Any ideas?
+- Partly unused keys: ctrl, alt. Any ideas?
