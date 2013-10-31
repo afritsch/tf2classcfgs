@@ -17,8 +17,8 @@ Disclaimer: USE ON YOUR OWN RISK.
 
 
 Features:
-- Toggle hud minmode on ö (semicolon on US-keyboard)
-- Shows additionally to scores netgraph when holding tab
+- Toggle hud_minmode on ö (semicolon on US-keyboard)
+- Toggle netgraph on acute accent (´, on US-keyboard ])
 - Network settings can be changed on console with commands netgood/netbad,
   netbad is standard
 - All classes (except specifically changed): panicmelee on holding mouse3, then
@@ -30,7 +30,7 @@ Features:
   on mouse5, then switch back to last weapon
 - Sniper: sensitivity change when holding alt (increase for my case), quick
   jarate/SMG on mouse5, then switch back to last weapon
-- Soldier: Announce enemy medic kill on mouse5, easy rocketjump on mouse2
+- Soldier: Announce enemy medic kill on alt, easy rocketjump on mouse2
   (deactivated)
 - Pyro: toggle autofire on mouse5, works with switching weapons
 - Scout: mouse1-3 direct switch+attack for all three weapons
@@ -45,17 +45,19 @@ Notes:
   build menu for it
 - The Sandman doesn't work for the scout bindings, either involve a "exec clear"
   on console or deactivate the binding for mouse2
+- Changing the network preset only works when not connected to a server, the
+  console will tell you that
 
 
 Files:
 - clear.cfg: clears bindings to defaults
-- autoexec.cfg: does only clear bindings atm
+- autoexec.cfg: network presets, moving script, netgraph toggle, minmode toggle
 - demoman.cfg, engineer.cfg, heavyweapons.cfg, medic.cfg, pyro.cfg, scout.cfg,
   sniper.cfg, soldier.cfg, spy.cfg
 
 
 Sources used:
-- Scripts on tf2wiki.net: http://tf2wiki.net/wiki/Pyro_scripts
+- Scripts on tf2wiki.net: http://tf2wiki.net/wiki/Pyro_scripts (not only Pyro)
 - tcm_byte's config for medic: http://en.twitch.tv/tcm_byte (scroll down for the
   download-link)
 - Chris' config: http://chrisdown.name/tf2/
